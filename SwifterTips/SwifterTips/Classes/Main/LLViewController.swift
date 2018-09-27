@@ -13,11 +13,50 @@ class LLViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = UIColor.white
+        
+        
+        let s = S()
+        s.method1()
+        s.method2()
+        s.method3()
+        
     }
+}
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+// MARK: - @escaping 闭包的概念
+func doWork(block: ()->()) {
+    block()
+}
+
+func doWorkAsync(block: @escaping ()->()) {
+    DispatchQueue.main.async {
+        block()
+    }
+}
+
+class S {
+    
+    var foo = "foo"
+    
+    func method1() {
+        doWork {
+            print(foo)
+        }
+        foo = "bar"
     }
     
+    func method2() {
+        doWorkAsync {
+            print(self.foo)
+        }
+        foo = "bar"
+    }
+    
+    func method3() {
+        doWorkAsync {
+            [weak self] in
+            print(self?.foo ?? "nil")
+        }
+        foo = "bar"
+    }
 }
