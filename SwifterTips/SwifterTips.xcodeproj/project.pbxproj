@@ -10,6 +10,8 @@
 		708CE56A215CAC0500C825EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708CE569215CAC0500C825EE /* AppDelegate.swift */; };
 		708CE571215CAC0700C825EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 708CE570215CAC0700C825EE /* Assets.xcassets */; };
 		708CE57D215CAD0700C825EE /* LLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708CE57C215CAD0700C825EE /* LLViewController.swift */; };
+		708CE584215CD1B600C825EE /* TipOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708CE583215CD1B600C825EE /* TipOne.swift */; };
+		708CE587215CD23F00C825EE /* TipTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708CE586215CD23F00C825EE /* TipTwo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +20,8 @@
 		708CE570215CAC0700C825EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		708CE575215CAC0700C825EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		708CE57C215CAD0700C825EE /* LLViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLViewController.swift; sourceTree = "<group>"; };
+		708CE583215CD1B600C825EE /* TipOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipOne.swift; sourceTree = "<group>"; };
+		708CE586215CD23F00C825EE /* TipTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipTwo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				708CE57C215CAD0700C825EE /* LLViewController.swift */,
+				708CE585215CD1C500C825EE /* Tips */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -80,6 +85,15 @@
 				708CE575215CAC0700C825EE /* Info.plist */,
 			);
 			path = Other;
+			sourceTree = "<group>";
+		};
+		708CE585215CD1C500C825EE /* Tips */ = {
+			isa = PBXGroup;
+			children = (
+				708CE583215CD1B600C825EE /* TipOne.swift */,
+				708CE586215CD23F00C825EE /* TipTwo.swift */,
+			);
+			path = Tips;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,7 +165,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				708CE584215CD1B600C825EE /* TipOne.swift in Sources */,
 				708CE57D215CAD0700C825EE /* LLViewController.swift in Sources */,
+				708CE587215CD23F00C825EE /* TipTwo.swift in Sources */,
 				708CE56A215CAC0500C825EE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
