@@ -22,6 +22,15 @@ class LLViewController: UIViewController {
         
         // MARK: - Optional Chaining
         
+        let xiaoming = Child()
+        
+        if let toyName = xiaoming.pet?.toy?.name {
+            print(toyName)
+        }
+        
+        xiaoming.pet?.toy?.play()
+        
+        
     }
 }
 
