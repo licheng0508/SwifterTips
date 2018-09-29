@@ -38,4 +38,10 @@ extension Toy {
     }
 }
 
+let playClosure = {(child: Child) -> ()? in
+    child.pet?.toy?.play()
+}
+
+
+
 

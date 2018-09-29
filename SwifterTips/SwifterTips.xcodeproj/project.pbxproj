@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7043071B215F4E9E009A44D2 /* TipThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7043071A215F4E9E009A44D2 /* TipThree.swift */; };
 		708CE56A215CAC0500C825EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708CE569215CAC0500C825EE /* AppDelegate.swift */; };
 		708CE571215CAC0700C825EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 708CE570215CAC0700C825EE /* Assets.xcassets */; };
 		708CE57D215CAD0700C825EE /* LLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708CE57C215CAD0700C825EE /* LLViewController.swift */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7043071A215F4E9E009A44D2 /* TipThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipThree.swift; sourceTree = "<group>"; };
 		708CE566215CAC0500C825EE /* SwifterTips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwifterTips.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		708CE569215CAC0500C825EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		708CE570215CAC0700C825EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 			children = (
 				708CE583215CD1B600C825EE /* TipOne.swift */,
 				708CE586215CD23F00C825EE /* TipTwo.swift */,
+				7043071A215F4E9E009A44D2 /* TipThree.swift */,
 			);
 			path = Tips;
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 				708CE57D215CAD0700C825EE /* LLViewController.swift in Sources */,
 				708CE587215CD23F00C825EE /* TipTwo.swift in Sources */,
 				708CE56A215CAC0500C825EE /* AppDelegate.swift in Sources */,
+				7043071B215F4E9E009A44D2 /* TipThree.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
